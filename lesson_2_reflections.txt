@@ -1,0 +1,2 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+É criada a pasta oculta .git com todos os metadados necessário para rastreamento e armazenamento do histórico dos arquivos. Isso é necessário para criar ou iniciar o repositório, caso contrário seria um diretório normal.
