@@ -1,2 +1,5 @@
 O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
-É criada a pasta oculta .git com todos os metadados necessário para rastreamento e armazenamento do histórico dos arquivos. Isso é necessário para criar ou iniciar o repositório, caso contrário seria um diretório normal.
+R: É criada a pasta oculta .git com todos os metadados necessário para rastreamento e armazenamento do histórico dos arquivos. Isso é necessário para criar ou iniciar o repositório, caso contrário seria um diretório normal.
+
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+R: a área de preparação mantém os arquivos que estão no diretório de trabalho e serão enviados para o repositório, e então começarão serem trackeados
