@@ -10,6 +10,9 @@
 Comando no mac para comparar arquivos\
 git diff -u <file_old> <file_new>\
 \
+* git diff sem argumentos compara o diret\'f3rio de trabalho e a \'e1rea de prepara\'e7\'e3o\
+* git diff - - stage compara a \'e1rea de prepara\'e7\'e3o e o commit mais recente\
+\
 Comando no windows para comparar arquivos\
 fc <file_old> <file_new>\
 \
@@ -34,6 +37,22 @@ git add <nome_arquivo>\
 Comando para remover o arquivo da \'e1rea de prepara\'e7\'e3o\
  git reset <nome_arquivo>\
 \
+Comando para descartar todas as altera\'e7\'f5es no diret\'f3rio de trabalho ou na \'e1rea de prepara\'e7\'e3o\
+git reset - -hard\
+\
 Comando para fazer o commit\
 git commit\
-git commit -m \'93mensagem do commit\'94}
+git commit -m \'93mensagem do commit\'94\
+\
+Comando para ver branches\
+git branch\
+* Sem argumentos mostra os branches atuais\
+\
+Comando para criar uma branch\
+git branch <nome_branch>\
+\
+Comando para realizar merge de branches\
+git merge <branch_1>  <branch_2>\
+\
+Comando para reverter o merge\
+git merge - -abort}

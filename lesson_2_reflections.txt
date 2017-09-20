@@ -3,3 +3,18 @@ R: É criada a pasta oculta .git com todos os metadados necessário para rastrea
 
 Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 R: a área de preparação mantém os arquivos que estão no diretório de trabalho e serão enviados para o repositório, e então começarão serem trackeados
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+R: Adicionando a área de preparação apenas os arquivos que deverão ser commitados de acordo com a alteração lógica.
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+R: No caso em que estiver testando novas funcionalidades/recursos e não quiser afetar a versão principal, com o intuito de mantê-la intacta, sem erros.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+R: Através dos diagramas podemos visualizar de forma simples a estrutura do nosso projeto e saber o que contém em cada branch e a partir de onde ela foi criada.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+R: O merge realiza o junção de dois branches
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+R: A vantagem é que ele facilita o nosso trabalho, fazendo a mesclagem automática, a desvantagem é que nem sempre ele consegue fazer essa mesclagem e gera conflito, neste caso precisamos interferir manualmente e resolver o conflito.
